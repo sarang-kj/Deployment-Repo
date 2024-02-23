@@ -4,7 +4,10 @@ import numpy as np
 from prediction import predict
 
 
-st.title('Classifying Iris Flowers Using Machine Learning')
+st.markdown(
+    "<h1 style='color: green;'>Classifying Iris Flowers Using Machine Learning</h1>",
+    unsafe_allow_html=True
+)
 st.markdown('Toy model to play to classify iris flowers into \
      (setosa, versicolor, virginica) based on their sepal/petal \
     and length/width.')
