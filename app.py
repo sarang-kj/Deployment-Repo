@@ -5,7 +5,7 @@ from prediction import predict
 
 
 st.markdown(
-    "<h1 style='color: green;'>Classifying Iris Flowers Using Machine Learning</h1>",
+    "<h1 style='color: #00ffff;'>Classifying Iris Flowers Using Machine Learning</h1>",
     unsafe_allow_html=True
 )
 st.markdown('Toy model to play to classify iris flowers into \
